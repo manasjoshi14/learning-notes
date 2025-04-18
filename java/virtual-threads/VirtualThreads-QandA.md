@@ -2,6 +2,20 @@
 
 This document records questions and answers about virtual threads in Java 21, based on questions and doubts raised by the user while exploring the concept. These Q&A sessions supplement the main README documentation and provide deeper insights into specific aspects of virtual threads.
 
+## Table of Contents
+
+- [Stack Size and Memory Allocation](#stack-size-and-memory-allocation)
+- [Carrier Threads](#carrier-threads)
+- [Understanding the Carrier Thread and Virtual Thread Diagram](#understanding-the-carrier-thread-and-virtual-thread-diagram)
+- [ForkJoinPool Scheduler for Virtual Threads](#forkjoinpool-scheduler-for-virtual-threads)
+- [ForkJoinPool Data Structures Clarification](#forkjoinpool-data-structures-clarification)
+- [Locality Preference Implementation in Virtual Threads](#locality-preference-implementation-in-virtual-threads)
+- [Virtual Threads and Garbage Collection](#virtual-threads-and-garbage-collection)
+- [Thread Pinning: Advanced Details](#thread-pinning-advanced-details)
+- [Custom Storage Alternatives to ThreadLocal](#custom-storage-alternatives-to-threadlocal)
+- [Migrating from ThreadLocal to ScopedValue](#migrating-from-threadlocal-to-scopedvalue)
+- [Java 24 and the Future of Thread Pinning (JEP 491)](#java-24-and-the-future-of-thread-pinning-jep-491)
+
 ## Stack Size and Memory Allocation
 
 **Q: What does it mean by `~1KB initial stack size` memory footprint? Does it grow, is it some reference of object?**

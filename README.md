@@ -1,11 +1,13 @@
-# Learning Notes
+# TIL - Today I Learned
 
-My personal collection of notes, code snippets, and resources from various learning experiences.
+My personal collection of things I've learned, code snippets, and resources from various experiences.
 
-## Table of Contents
+## Java
 
-| Topic            | Description                                     |
-|------------------|-------------------------------------------------|
-| [Virtual Threads](./virtual-threads/)  | Notes and examples related to Java Virtual Threads |
-| [MongoDB Bulk Insert](./MONGODB_BULK_INSERT_CPU_EFFICIENCY.md) | Technical deep dive into MongoDB's bulk insert CPU efficiency |
+- [Virtual Threads](./java/virtual-threads/) - Notes and examples related to Java Virtual Threads
+
+## MongoDB
+
+- [Bulk Operations CPU Efficiency](./mongo/mongodb_bulk_op_cpu_efficiency.md) - Technical deep dive into MongoDB's bulk operations CPU efficiency
+
 
