@@ -10,4 +10,7 @@ My personal collection of things I've learned, code snippets, and resources from
 
 - [Bulk Operations CPU Efficiency](./mongo/mongodb_bulk_op_cpu_efficiency.md) - Technical deep dive into MongoDB's bulk operations CPU efficiency
 
+## Redis
+
+- [Redis Code Exploration Guide](./redis/redis_code_exploration_guide.md) - Foundational prompts for exploring Redis source code
 
